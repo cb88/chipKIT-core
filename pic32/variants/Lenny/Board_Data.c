@@ -346,6 +346,9 @@ const uint8_t analog_pin_to_channel_PGM[] = {
 	8,		//*	A3              0
 	4,		//*	A4              1
 	5,		//*	A5              2
+	9,		//* A6
+	3,		//* A7
+	10,		//* A8
 };
 //#endif
 
@@ -363,8 +366,8 @@ const uint8_t digital_pin_to_analog_PGM[] = {
     NOT_ANALOG_PIN, //  9 
     NOT_ANALOG_PIN, //  10 
     NOT_ANALOG_PIN, //  11 
-    NOT_ANALOG_PIN, //  12 
-    NOT_ANALOG_PIN, //  13 
+    _BOARD_AN7,     //  12 
+    _BOARD_AN8,     //  13 
 
     // Analog pins
     _BOARD_AN0,     // A0 = RA0 = 14
@@ -381,7 +384,7 @@ const uint8_t digital_pin_to_analog_PGM[] = {
     NOT_ANALOG_PIN, //  23 
     NOT_ANALOG_PIN, //  24 
     NOT_ANALOG_PIN, //  25 
-    NOT_ANALOG_PIN, //  26 
+    _BOARD_AN6,     //  26 
     NOT_ANALOG_PIN, //  27 
     NOT_ANALOG_PIN, //  28 
     NOT_ANALOG_PIN, //  29 

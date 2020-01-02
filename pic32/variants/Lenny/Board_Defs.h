@@ -80,7 +80,7 @@
 /* Define the peripherals available on the board.
 */
 #define	NUM_DIGITAL_PINS	30
-#define	NUM_ANALOG_PINS		6
+#define	NUM_ANALOG_PINS		9
 #define NUM_OC_PINS			5
 #define	NUM_IC_PINS			0
 #define	NUM_TCK_PINS		0
@@ -203,6 +203,9 @@ static const uint8_t SCK  = 26;
 #define A3		17
 #define A4		18
 #define A5		19
+#define A6		26
+#define A7		12
+#define A8		13
 
 /* ------------------------------------------------------------ */
 /*					Change Notice Pins							*/
